@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+body {
+    font-family: 'Roboto';
+    /* background: rgb(13,22,55);
+    background: linear-gradient(51deg, rgba(13,22,55,1) 0%, rgba(9,9,121,0.7483368347338936) 32%, rgba(135,0,158,1) 100%); */
+    background-color: rgba(0, 0, 0, 0.406);
+    background-image: url("../images/c_wallp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(100px);
+
+}
+
+:root {
+    --space-cadet: #2F295Aff;
+    --rich-black-fogra-39: #030408ff;
+    --xiketic: rgb(42, 20, 60);
+    --xiketic-2: #1A1427ff;
+    --black-shadows: #C7B5BBff;
+    --french-lilac: #896195ff;
+    --deep-taupe: #825A58ff;
+    --old-mauve: #6C2A45ff;
+    --oxford-blue: #0D1637ff;
+
+}
+
+.bg-space-cadet {
+    background-color: var(--space-cadet) !important;
+}
+
+.bg-xiketic-2 {
+    background-color: var(--xiketic-2) !important;
+}
+
+.bg-oxford-blue {
+    background-color: var(--oxford-blue) !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* compnents */
+.main-image {
+    border-radius: 10%;
+    width: 30em;
+}
+
+.section-main {
+    margin-top: 64px;
+}
+
+.section-ws-main {
+    min-height: 100vh;
+    margin-top: 32px;
+}
+
+
+.brading_name {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main_about_title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_about_sub_t {
+    font-style: italic;
+}
+
+.main_about_txt {
+    font-size: 20px;
+}
+
+.info {
+    color: rgb(247, 153, 223) !important;
+    text-transform: uppercase;
+    font-weight: 900;
+}
