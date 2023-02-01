@@ -81,3 +81,28 @@ body {
     text-transform: uppercase;
     font-weight: 900;
 }
+
+.main_btn {
+    padding: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 40px;
+    border: none;
+    color: #030408ff;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    width: 250px;
+}    
+
+
+.white_paper_btn {
+    padding: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #4a0563;
+    background-image: linear-gradient(62deg, #4dbec8d3 0%, #6f1777 100%);
+    width: 250px;
+}  
